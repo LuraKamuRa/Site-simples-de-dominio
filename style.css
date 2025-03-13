@@ -168,3 +168,37 @@ body{
 .beneficios p {
     margin: 40px 0 40px 0;
 }
+.domincheck{
+    margin-top: 100px;
+    width: 100vw;
+    height: 100%;
+    color: #e7e9e9;
+    background-color: #232931;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.domincheck h1{
+    margin: 100px 0 0 0;
+    font-size: 50px;
+}
+.domincheck h2{
+    color: #8e8d8f;
+}
+#dominio{
+    margin: 10px auto;
+    width: 50%;
+    height: 60px;
+    border-radius: 8px;
+    font-size: larger;
+}
+#botao{
+    margin: 10px auto;
+    width: 15%;
+    height: 60px;
+    border-radius: 8px; 
+    font-size: larger;
+    background-color: #2dc76b;
+    margin-bottom: 70px;
+}
