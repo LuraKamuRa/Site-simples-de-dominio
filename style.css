@@ -24,6 +24,7 @@ body{
     display: flex;
     align-items: center;
     align-content: center;
+    text-align: center;
     justify-content: space-around;
     margin: 0 0 0 65%;
     color: #dae3f1;
@@ -36,7 +37,9 @@ body{
     text-align: center;
     background-color: #2cc76d;
     border-radius: 8px;
-    
+}
+.bar p{
+    margin: 0;
 }
 .main{
     width: 100vw;
@@ -201,4 +204,49 @@ body{
     font-size: larger;
     background-color: #2dc76b;
     margin-bottom: 70px;
+}
+
+.from-footer-message{
+    width: 100vw;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+.inputs{
+    text-align: center;
+    align-content: center;
+}
+#nome, #email{
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+#desc{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    align-content: flex-start;
+    border-radius: 10px;
+    border: solid 2px;
+}
+#send{
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2cc76d;
+
+
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .precos{
+        flex-direction: column;
+    }
+
 }
